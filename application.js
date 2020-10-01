@@ -4,11 +4,11 @@ function showContent(){
   console.log(hidden);
 }
 function bubbleOut(n){
-  var changeColors = document.getElementById("circle" + n);
+  var changeColors = document.getElementById("Square" + n);
   changeColors.style.fill = "rgb(" +rgb()+ "," +rgb()+ "," +rgb()+ ")";
 }
 function rgb(){
-  return Math.floor(Math.random() * 256);
+  return Math.floor(Math.random() * 789);
 }
 // function changePictures(n){
 //   var changePictures = document.getElementById("pic" + n);
